@@ -17,7 +17,7 @@ public class ClienteBRIDGES {
     public String getHashContraseña() { return hashContraseña; }
     public void setHashContraseña(String hashContraseña) { this.hashContraseña = hashContraseña; }
 
-    // Clase utilitaria para funciones de hash
+    
     public static class HashUtil {
 
         // Convierte contraseña en código hash de 3 dígitos
@@ -263,4 +263,5 @@ public class ClienteBRIDGES {
             }
         }
     }
+
 }
