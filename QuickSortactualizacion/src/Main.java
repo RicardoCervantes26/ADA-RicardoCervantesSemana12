@@ -90,7 +90,7 @@ public class Main {
         System.out.println("Lista ordenada:");
         System.out.println(numeros);
 
-        // Guardar los números ordenados en otro archivo
+        // Guardar
         guardarEnArchivo(numeros, "pedidos_ordenados.txt");
 
         System.out.println("\n¡Proceso completado!");
