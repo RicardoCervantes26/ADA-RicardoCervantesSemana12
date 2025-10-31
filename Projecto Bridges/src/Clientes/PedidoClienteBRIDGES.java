@@ -10,7 +10,7 @@ public class PedidoClienteBRIDGES {
     private String descripcion;
     private double peso;
     private String direccionEntrega;
-    private String estado; // Pendiente, Aceptado, En camino, Entregado, Fallido
+    private String estado; 
 
     public PedidoClienteBRIDGES() {}
 
@@ -146,4 +146,5 @@ public class PedidoClienteBRIDGES {
             }
         }
     }
+
 }
