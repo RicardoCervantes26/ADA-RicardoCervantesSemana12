@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Main {
 
-    // Metodo principal que ordena directamente una Lista
+    
     public static void ordenarRapido(List<Integer> lista) {
         if (lista.size() <= 1) return;
 
