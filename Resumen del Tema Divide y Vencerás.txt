@@ -1,0 +1,9 @@
+Resumen del Tema: Divide y Vencerás en Búsqueda
+En esta sesión, nos enfocamos en el algoritmo de búsqueda binaria , una técnica de "divide y vencerás" para encontrar rápidamente un elemento en una lista.
+Búsqueda Binaria: La Forma Eficiente
+-La búsqueda binaria es un algoritmo eficiente que solo funciona si la lista está ordenada. El truco está en que divide repetidamente el rango de búsqueda a la mitad hasta que el elemento es encontrado o se determina que no está en la lista.
+  -Proceso Básico: Se definen los índices izquierda y derecha. Mientras izquierda sea menor o igual a derecha, se calcula el índice medio , se compara con el objetivo y se    ajustan los índices para buscar en la mitad derecha (ajusta izquierda a medio + 1) o izquierda (ajusta derecha a medio - 1). Si termina sin encontrarlo, se devuelve un indicador como -1.
+  -Eficiencia (Tiempo): Su complejidad temporal es de O(log n).
+-Búsqueda Binaria vs. Búsqueda Lineal y Conclusión
+La búsqueda binaria es comparada con la búsqueda lineal, la cual revisa cada elemento secuencialmente. La búsqueda lineal tiene una complejidad temporal de O(n) , mientras que la binaria tiene O(log n).
+En rendimiento, la búsqueda binaria es significativamente mejor que la lineal, especialmente con grandes volúmenes de datos. El tiempo de ejecución en la búsqueda binaria crece logarítmicamente, lo que la hace mucho más rápida que la lineal en listas grandes. La búsqueda lineal es ideal para listas desordenadas o pequeñas. Se debe usar la Búsqueda Binaria cuando la lista está ordenada y es grande.
